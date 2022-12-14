@@ -102,11 +102,21 @@ ship{
 }
 
 .guirlande{
-    width: 50%;
+    width: 88%;
     height: 50%;
     position: absolute;
-  top: 50%;
+    top: 2%;
     left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    background-size: cover;
+}
+.snoop{
+    width: 16%;
+    height: 65%;
+    position: absolute;
+    top: 91%;
+    left: 69%;
     transform: translate(-50%,-50%);
     z-index: 1;
     background-size: cover;
